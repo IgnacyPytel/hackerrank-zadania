@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+    int liczba1, liczba2,liczba3;
+    int suma;
+    cout<<"";
+    cin>> liczba1>>liczba2>>liczba3;
+    suma = liczba1+liczba2+liczba3;
+    cout<<suma<<endl;
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int pierwsza;
+    long druga;
+    char trzecia;
+    float czwarta;
+    double piata;
+    scanf("%d %ld %c %f %lf", &pierwsza, &druga, &trzecia, &czwarta, &piata);
+    printf("%d\n", pierwsza);
+    printf("%ld\n", druga);
+    printf("%c\n", trzecia);
+    printf("%.3f\n", czwarta);
+    printf("%.9lf\n", piata);
+    return 0;
+}
